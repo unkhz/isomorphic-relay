@@ -27,6 +27,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib",
+    "prepare": "npm run build",
     "prepublish": "npm run build"
   },
   "dependencies": {
