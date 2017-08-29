@@ -29,6 +29,9 @@
     "build": "babel src --out-dir lib",
     "prepare": "npm run build"
   },
+  "files": [
+    "lib/"
+  ],
   "dependencies": {
     "babel-runtime": "^6.6.1"
   },
